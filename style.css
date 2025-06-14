@@ -17,6 +17,7 @@ body {
     height: 100px;
     z-index: 10;          
     box-sizing: border-box;
+    margin-bottom:100px;
     
 }
 
@@ -108,18 +109,23 @@ body {
     transform: scale(1.05);
 }
 
-#info{
-    display:flex;
-    margin-top:500px;
-    margin-left:30px;
-    font-size:20px;
-    width:550px;
+
+.description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
+#info{
+    width:550px;
+    margin-top:200px;
+    margin-right:200px;
+}
 
-
-
-
+#klient{
+    width: 400px;
+    height:400px;
+}
 
 
 

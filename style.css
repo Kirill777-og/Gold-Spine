@@ -1,0 +1,101 @@
+body {
+  font-family: 'Aboreto', cursive;
+    padding: 0%;
+    margin: 0%; 
+}
+
+.otdel{
+    background-color: #000; 
+    color: #fff;           
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;        
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    z-index: 10;          
+    box-sizing: border-box;
+    
+}
+
+#logo{
+    position: absolute;
+    height:70px;
+    width:70px;
+    z-index:15;
+    border-radius: 50px;
+    left:15px;
+    top:15px;
+}
+
+#t1{
+    position: absolute;
+    z-index: 15;
+    color:black;
+    top:200px;
+    left:20px;
+    font-size:60px;
+}
+
+#t2{
+    position: absolute;
+    z-index: 15;
+    color:yellow;
+    top:270px;
+    left:20px;
+    font-size:60px;
+}
+
+#p1{
+    position: absolute;
+    z-index: 15;
+    color:white;
+    top:20px;
+    left:120px;
+    font-size:20px;
+}
+
+#p2{
+    position: absolute;
+    z-index: 15;
+    color:white;
+    top:20px;
+    left:360px;
+    font-size:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#b1{
+    
+position: absolute;
+top:390px;
+border-radius: 8px;
+padding: 13px 15px;
+font-weight: bold;
+left:30px;
+transition: transform ease 0.3s, background-color ease 0.3s ;
+
+}
+
+#b1:hover{
+    transform: scale(1.05);
+    background-color: rgb(160, 161, 157);
+}

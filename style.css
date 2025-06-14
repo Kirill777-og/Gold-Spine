@@ -36,16 +36,16 @@ body {
     color:black;
     top:200px;
     left:20px;
-    font-size:60px;
+    font-size:80px;
 }
 
 #t2{
     position: absolute;
     z-index: 15;
     color:yellow;
-    top:270px;
+    top:290px;
     left:20px;
-    font-size:60px;
+    font-size:70px;
 }
 
 #p1{
@@ -55,6 +55,8 @@ body {
     top:20px;
     left:360px;
     font-size:20px;
+    transition:transform ease 0.3s;
+    cursor: pointer;
 }
 
 #p2{
@@ -64,6 +66,8 @@ body {
     top:20px;
     left:720px;
     font-size:20px;
+    transition:transform ease 0.3s;
+    cursor: pointer;
 }
 
 #p3{
@@ -73,6 +77,8 @@ body {
     top:20px;
     left:1080px;
     font-size:20px;
+    transition:transform ease 0.3s;
+    cursor: pointer;
 }
 
 #p4{
@@ -82,9 +88,25 @@ body {
     top:20px;
     left:1440px;
     font-size:20px;
+    transition:transform ease 0.3s;
+    cursor: pointer;
 }
 
+#p1:hover{
+    transform: scale(1.05);
+}
 
+#p2:hover{
+    transform: scale(1.05);
+}
+
+#p3:hover{
+    transform: scale(1.05);
+}
+
+#p4:hover{
+    transform: scale(1.05);
+}
 
 
 
@@ -104,10 +126,11 @@ body {
 #b1{
     
 position: absolute;
-top:390px;
+top:420px;
 border-radius: 8px;
 padding: 13px 15px;
 font-weight: bold;
+font-size:20px;
 left:30px;
 transition: transform ease 0.3s, background-color ease 0.3s ;
 

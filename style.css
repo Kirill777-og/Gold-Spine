@@ -22,11 +22,11 @@ body {
 
 #logo{
     position: absolute;
-    height:70px;
-    width:70px;
+    height:80px;
+    width:80px;
     z-index:15;
     border-radius: 50px;
-    left:15px;
+    left:35px;
     top:15px;
 }
 
@@ -53,7 +53,7 @@ body {
     z-index: 15;
     color:white;
     top:20px;
-    left:120px;
+    left:360px;
     font-size:20px;
 }
 
@@ -62,7 +62,25 @@ body {
     z-index: 15;
     color:white;
     top:20px;
-    left:360px;
+    left:720px;
+    font-size:20px;
+}
+
+#p3{
+    position: absolute;
+    z-index: 15;
+    color:white;
+    top:20px;
+    left:1080px;
+    font-size:20px;
+}
+
+#p4{
+    position: absolute;
+    z-index: 15;
+    color:white;
+    top:20px;
+    left:1440px;
     font-size:20px;
 }
 

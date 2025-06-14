@@ -4,31 +4,35 @@ body {
     margin: 0%; 
 }
 
-.otdel{
+header{
     background-color: #000; 
     color: #fff;           
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    position: fixed;        
+    position: sticky;        
+    height: 100px;       
+    box-sizing: border-box;
+    margin-bottom:100px;
+    justify-content: space-around;
     top: 0;
     left: 0;
     right: 0;
-    height: 100px;
-    z-index: 10;          
-    box-sizing: border-box;
-    margin-bottom:100px;
-    
+    z-index: 100;
+}
+
+.button_header{
+    color:white;
+    font-size:20px;
+    transition:transform ease 0.3s;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 #logo{
-    position: absolute;
     height:80px;
     width:80px;
-    z-index:15;
     border-radius: 50px;
-    left:35px;
-    top:15px;
 }
 
 #t1{
@@ -41,8 +45,7 @@ body {
 }
 
 #t2{
-    position: absolute;
-    z-index: 15;
+  
     color:yellow;
     top:290px;
     left:20px;
@@ -50,44 +53,8 @@ body {
 }
 
 #p1{
-    position: absolute;
-    z-index: 15;
+   
     color:white;
-    top:20px;
-    left:360px;
-    font-size:20px;
-    transition:transform ease 0.3s;
-    cursor: pointer;
-}
-
-#p2{
-    position: absolute;
-    z-index: 15;
-    color:white;
-    top:20px;
-    left:720px;
-    font-size:20px;
-    transition:transform ease 0.3s;
-    cursor: pointer;
-}
-
-#p3{
-    position: absolute;
-    z-index: 15;
-    color:white;
-    top:20px;
-    left:1080px;
-    font-size:20px;
-    transition:transform ease 0.3s;
-    cursor: pointer;
-}
-
-#p4{
-    position: absolute;
-    z-index: 15;
-    color:white;
-    top:20px;
-    left:1440px;
     font-size:20px;
     transition:transform ease 0.3s;
     cursor: pointer;

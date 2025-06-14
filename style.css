@@ -108,7 +108,13 @@ body {
     transform: scale(1.05);
 }
 
-
+#info{
+    display:flex;
+    margin-top:500px;
+    margin-left:30px;
+    font-size:20px;
+    width:550px;
+}
 
 
 

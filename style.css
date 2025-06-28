@@ -143,16 +143,14 @@ transition: transform ease 0.3s, background-color ease 0.3s ;
 
 
 #monthlyT{
-    display: flex
-;
+    display: flex;
     justify-content: center;
-    margin-right: 130px;
+
 }
 
 
 .description1{
     display: flex;
     justify-content: center;
-    gap:130px;
-    margin-right:130px;
+
 }

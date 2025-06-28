@@ -131,9 +131,15 @@ transition: transform ease 0.3s, background-color ease 0.3s ;
 
 .types{
     display: flex;
-    justify-content: center;
-    gap:300px
-}    
+    justify-content: space-around;
+}  
+
+.product{
+    text-align: center;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
 
 .container1{
     width:300px;
@@ -142,17 +148,5 @@ transition: transform ease 0.3s, background-color ease 0.3s ;
 }
 
 
-#monthlyT{
-    display: flex
-;
-    justify-content: center;
-    margin-right: 130px;
-}
 
 
-.description1{
-    display: flex;
-    justify-content: center;
-    gap:130px;
-    margin-right:130px;
-}

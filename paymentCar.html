@@ -21,26 +21,18 @@
 
     
 
-    <h1 id = "person">Insure a person</h1>
+    <h1 id = "person">Insure a car</h1>
 
     <div class="payment1">
     
-    <p id = "monthlyT">Coverage of medical expenses</p>
-    <p id = "monthlyC">Opportunity to be treated in private clinics</p>
-    <p id = "monthlyC">Help with bullying, stress, emotional overload</p>
-    <p id = "monthlyC">Opportunity to accumulate capital by age 18</p>
+    <p id = "monthlyT">Covers damage to third parties</p>
+    <p id = "monthlyC">Covers your car for damage, theft, vandalism, weather, etc</p>
+    <p id = "monthlyC">Gold Spine insurance company takes care of disputes, examinations, compensation, etc.</p>
+    <p id = "monthlyC">If the other driver has filed a claim or dispute - the attorney is paid by the insurance company</p>
     
   </div>
 
-  
-  <p id = "age">insurance holder's age</p> 
 
-  <div  class = "ageButtons">
-
-  <button id = "young" onclick = "changePrice()">7 - 18</button>
-  <button id = "young" onclick="changePrice1()">18+</button>
-
-  </div>
 
   <p id = "long">for how long you want to take out insurance</p>
 
@@ -51,33 +43,24 @@
 
   </div>
 
-    <div class="totalPrice">
+   <div class="totalPrice">
 
     <h1 id = "totPrice">total price : </h1>
     <h1 id = "totPrice1"></h1>
   </div>
 
-  <button id = "addToCart" onclick="addToCart()">Add to cart</button>
+    <button id = "addToCart" onclick="addToCart()">Add to cart</button>
 
-  <script>
+      <script>
 
-    function changePrice(){
-      document.getElementById('totPrice1').textContent = '$139.99 (Monthly)';
-      document.getElementById('addToCart').style.opacity = ''
-    }
-
-        function changePrice1(){
-      document.getElementById('totPrice1').textContent = '$399.99 (Monthly)';
-      document.getElementById('addToCart').style.opacity = ''
-    }
 
         function changePrice2(){
-      document.getElementById('totPrice1').textContent = '$1400 (yearly)';
+      document.getElementById('totPrice1').textContent = '$45.99 (Monthly)';
       document.getElementById('addToCart').style.opacity = '1'
     }
 
         function changePrice3(){
-      document.getElementById('totPrice1').textContent = '$2800 (yearly)';
+      document.getElementById('totPrice1').textContent = '$359.88 (29.99 per month)';
       document.getElementById('addToCart').style.opacity = '1'
     }
 
@@ -100,10 +83,8 @@
     }
 
   </script>
-
   
 
-  
 
     
 </body>

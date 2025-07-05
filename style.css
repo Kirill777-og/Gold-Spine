@@ -164,4 +164,112 @@ footer{
     
 }
 
+.payment1{
+    margin-left: 20px;
+    font-size: 30px;
+}
 
+#person{
+    margin-left: 20px;
+    font-size: 60px;
+}
+
+#age{
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top:80px;
+}
+
+
+#young{
+display: flex;
+border-radius: 8px;
+padding: 13px 15px;
+font-size:20px;
+margin-left:20px;
+transition: transform ease 0.3s, background-color ease 0.3s ;
+
+}
+
+#young:hover{
+    transform: scale(1.05);
+}
+
+.ageButtons{
+display: flex;
+border-radius: 8px;
+font-size:20px;
+margin-left:0px;
+transition: transform ease 0.3s, background-color ease 0.3s ;
+}
+
+.totalPrice{
+    display:flex;
+    margin-left:20px;
+    font-size:25px;
+    width:1500px;
+}
+
+#addToCart{
+display: flex;
+border-radius: 8px;
+padding: 13px 15px;
+margin-bottom:300px;
+font-size:20px;
+margin-left:20px;
+transition: transform ease 0.3s, background-color ease 0.3s, opacity 0.3s ease;
+opacity: 0; 
+}
+
+#addToCart:hover{
+   transform: scale(1.05); 
+}
+
+#korzina{
+    width:50px;
+    border-radius: 20px;
+    margin-left:1800px
+}
+
+.cartP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pay{
+display: flex;
+border-radius: 8px;
+padding: 13px 15px;
+margin-bottom:300px;
+font-size:20px;
+margin-left:20px;
+transition: transform ease 0.3s, background-color ease 0.3s, opacity 0.3s ease;
+opacity: 1; 
+}
+
+#pay:hover{
+    transform:scale(1.05)
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.tovarName{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+#name{
+    font-size:60px;
+}
+
+#long{
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top:80px; 
+}

@@ -208,6 +208,7 @@ transition: transform ease 0.3s, background-color ease 0.3s ;
     margin-left:20px;
     font-size:25px;
     width:1500px;
+ 
 }
 
 #addToCart{
@@ -297,9 +298,37 @@ opacity: 1;
 }
 
 .textik{
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
-    margin-top:300px; 
 }
 
+.knopki{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+#info{
+    display: flex;
+    font-size:50px;
+    width:1000px;
+}
+
+
+.infa{
+    display: flex;
+    margin-left:30px;
+    gap:200px;
+}
+
+#babki{
+    height:600px;
+}
+
+.contacts{
+   
+    justify-content: center;
+    align-items: center;
+}

@@ -12,7 +12,7 @@
 <body>
     <header>
       <a href="index.html"><img id="logo" src="img/logo.png" /></a>
-      <a href="" class="button_header">About us</a>
+      <a href="/info.html" class="button_header">About us</a>
       <a href="" class="button_header">Contact Us</a>
       <a href="/prices.html" class="button_header">Insure</a>
       <a href="/cart.html" class="button_header">go to cart</a>
@@ -55,25 +55,29 @@
 
     <h1 id = "totPrice">total price : </h1>
     <h1 id = "totPrice1"></h1>
+    
   </div>
 
   <button id = "addToCart" onclick="addToCart()">Add to cart</button>
+   
+
+ 
 
   <script>
 
     function changePrice(){
       document.getElementById('totPrice1').textContent = '$139.99 (Monthly)';
-      document.getElementById('addToCart').style.opacity = ''
+      document.getElementById('addToCart').style.opacity = '1'
     }
 
         function changePrice1(){
       document.getElementById('totPrice1').textContent = '$399.99 (Monthly)';
-      document.getElementById('addToCart').style.opacity = ''
+      document.getElementById('addToCart').style.opacity = '1'
     }
 
         function changePrice2(){
       document.getElementById('totPrice1').textContent = 'choose your age';
-      document.getElementById('addToCart').style.opacity = '1'
+      document.getElementById('addToCart').style.opacity = '0'
     }
 
         function changePrice3(){
@@ -82,7 +86,7 @@
     }
 
 
-
+   
 
 
 
@@ -97,6 +101,8 @@
     localStorage.setItem('tPrice', price);
     localStorage.setItem('tPrice1', price1);
     localStorage.setItem('aName', name);
+
+    document.getElementById('totPrice1').textContent = 'product has been added to cart';
     }
 
   </script>

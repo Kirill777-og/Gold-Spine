@@ -34,11 +34,17 @@
 
     </div>
 
-    <div class="but">
+    <div class="but" style="margin: 0;">
 
-    <button id = "pay">Buy now</button>
+    <button id = "pay" onclick = "remove()">Remove all</button>
 
+     <button id = "back" onclick = "location.href = '/index.html'">go back</button>
+
+     <button id = "pay1" onclick = "location.href = '/lang.html'">Buy now</button>
+  
     </div>
+
+  
 
     
     
@@ -53,6 +59,18 @@
     document.getElementById('money').textContent = price1;
     document.getElementById('name').textContent = name;
 
+
+    function remove(){
+      document.getElementById('name').textContent = "Your cart is empty";
+      document.getElementById('money').style.opacity = '0';
+      document.getElementById('price').style.opacity = '0';
+      document.getElementById('pay').style.opacity = '0';
+      document.getElementById('pay1').style.opacity = '0';
+      
+
+
+
+    }
        
     </script>
 

@@ -112,7 +112,7 @@ header{
 }
 
 #b1{
-    
+font-family: 'Aboreto', cursive;   
 display: flex;
 border-radius: 8px;
 padding: 13px 15px;
@@ -142,10 +142,13 @@ transition: transform ease 0.3s, background-color ease 0.3s ;
     border-radius: 10px;
     transition: transform 0.3s ease;
     height:300px;
+    
+
 }
 
 .product:hover{
     transform: scale(1.05)
+    
 }
 
 .container1{
@@ -182,6 +185,7 @@ footer{
 
 
 #young{
+font-family: 'Aboreto', cursive;
 display: flex;
 border-radius: 8px;
 padding: 13px 15px;
@@ -196,6 +200,7 @@ transition: transform ease 0.3s, background-color ease 0.3s ;
 }
 
 .ageButtons{
+font-family: 'Aboreto', cursive;
 display: flex;
 border-radius: 8px;
 font-size:20px;
@@ -212,6 +217,7 @@ transition: transform ease 0.3s, background-color ease 0.3s ;
 }
 
 #addToCart{
+font-family: 'Aboreto', cursive;
 display: flex;
 border-radius: 8px;
 padding: 13px 15px;
@@ -239,6 +245,7 @@ opacity: 0;
 }
 
 #pay{
+font-family: 'Aboreto', cursive;
 display: flex;
 border-radius: 8px;
 padding: 13px 15px;
@@ -253,11 +260,51 @@ opacity: 1;
     transform:scale(1.05)
 }
 
+#pay1{
+font-family: 'Aboreto', cursive;
+display: flex;
+border-radius: 8px;
+padding: 13px 15px;
+margin-bottom:300px;
+font-size:20px;
+margin-left:20px;
+transition: transform ease 0.3s, background-color ease 0.3s, opacity 0.3s ease;
+opacity: 1; 
+}
+
+#pay1:hover{
+    transform:scale(1.05)
+}
+
+#back{
+font-family: 'Aboreto', cursive;
+display: flex;
+border-radius: 8px;
+padding: 13px 15px;
+margin-bottom:300px;
+font-size:20px;
+margin-left:20px;
+transition: transform ease 0.3s, background-color ease 0.3s, opacity 0.3s ease;
+opacity: 1;    
+}
+
+#back:hover{
+  transform:scale(1.05)  
+}
+
+
 .but{
     display: flex;
     justify-content: center;
     align-items: center; 
 }
+
+.but1{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
 
 .tovarName{
     display: flex;
@@ -328,7 +375,90 @@ opacity: 1;
 }
 
 .contacts{
-   
+    display: flex;
     justify-content: center;
     align-items: center;
+    gap:300px;
+    margin-top:300px;
+    margin:0;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+}  
+
+.logo{
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+    height:300px;
+    
+}
+
+#foto{
+transition: transform 0.3s ease;
+}
+
+#foto:hover{
+    transform: scale(1.05);
+}
+
+.dev{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top:300px;
+}
+
+.dev1{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top:100px; 
+}
+
+#dev1{
+    padding: 20px ;
+    font-size:22px; 
+    border-radius:30px;
+    font-family: 'Aboreto', cursive;
+    transition: transform 0.3s ease;
+}
+
+#dev1:hover{
+    transform: scale(1.05);
+}
+
+.langs{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top:300px;  
+gap:100px;
+margin:50px;
+padding:50px;
+}
+
+#lang{
+    padding: 20px ;
+    font-size:22px; 
+    border-radius:30px;
+    font-family: 'Aboreto', cursive;
+    transition: transform 0.3s ease;
+}
+
+#lang:hover{
+    transform:scale(1.05);
+}
+
+.lh{
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top:300px;  
+margin:0;
+padding:0;
+
 }
